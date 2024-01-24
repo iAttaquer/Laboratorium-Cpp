@@ -75,7 +75,6 @@ Pracownik &Pracownik::operator=(const Pracownik &wzor)
 	this->m_Imie = wzor.m_Imie;
 	this->m_Nazwisko = wzor.m_Nazwisko;
 	this->m_DataUrodzenia = wzor.m_DataUrodzenia;
-	// this->m_pNastepny = wzor.m_pNastepny;
 	return *this;
 }
 bool Pracownik::operator==(const Pracownik &wzor) const

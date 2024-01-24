@@ -65,7 +65,7 @@ Napis &Napis::operator=(const Napis &wzor)
 	if (this == &wzor)
 		return *this;
 	delete[] this->m_pszNapis;
-	this->m_pszNapis = new char[wzor.m_nDl];
+	this->m_pszNapis = new char[wzor.m_nDl+1];
 	strcpy(this->m_pszNapis, wzor.m_pszNapis);
 	this->m_nDl = wzor.m_nDl;
 	return *this;

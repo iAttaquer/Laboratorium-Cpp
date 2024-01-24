@@ -1,9 +1,9 @@
-#include <iostream>
 #include "Data.h"
+#include "Kierownik.h"
+#include "ListaPracownikow.h"
 #include "Napis.h"
 #include "Pracownik.h"
-#include "ListaPracownikow.h"
-#include "Kierownik.h"
+#include <iostream>
 
 int main()
 {
@@ -135,7 +135,7 @@ int main()
 				{
 				case 1:
 				{
-					std::cout << "Dodawanie pracownika/kierownika-podaj dane:\n";
+					std::cout << "Dodawanie Pracownika/Kierownika-podaj dane:\n";
 					std::cout << "Podaj P jesli to pracownik, albo K jesli to Kierownik: ";
 					char znak;
 					std::cin >> znak;
